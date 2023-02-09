@@ -1,0 +1,428 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+    scroll-behavior: smooth;
+}
+
+header{
+   
+    opacity: 0.800;
+    width: 100%;
+     height: 125px; 
+    background-color: rgb(219, 190, 174);
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.subflex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "RobotoSlab"; 
+    text-align: right;
+}
+h6{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "RobotoSlab";
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+}
+.img{
+    width: 300px;
+    height: 100px;
+}
+.color{
+    color: #b32317;
+
+}
+.contain{
+    display: flex;
+    background-image:url("../image/Layer\ 29.png");
+    
+    height: 675px;
+    align-items: center;
+    background-size: cover;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    font-family: "Oswald-bold";
+}
+.reg{
+    font-family: "RobotoSlab";
+}
+.info{
+    font-size: 50px;
+    line-height: 85px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Oswald-bold";
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #b32317;
+    border: transparent;
+    outline: 2px solid rgb(17 15 15);
+    outline-offset: 7px;
+}
+.btnclr{
+    color: white;
+}
+.title{
+        margin-left: 400px;
+        font-size: 20px;
+        color: #b32317;
+        font-family: "Roboto Slab"; 
+        margin-top: 50px;   
+}
+.aboutdetail{
+    
+    color:#000000;
+    font-weight: 500;
+    font-family: "Roboto-Slab";
+    margin-top: 16px;  
+}
+.para{
+    font-family: "Roboto-Slab";
+    margin-top: 30px;
+    width: 50%;
+    height: 627px;
+    font-size: 16px;
+    
+    
+}
+.btn2{
+    width: 150px;
+    height: 50px;
+    background-color: #b32317;
+    border: transparent;
+    outline: 2px solid rgb(17 15 15);
+    outline-offset: 7px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 10px;
+}
+.picture{
+    display: flex;
+    margin-top: -650px;
+    float: right;
+    margin-right: 100px;
+
+}
+.td{
+    padding: 15px;
+}
+.rect{
+    background-color: rgb(210, 216, 166);
+    margin-top: 90px;
+    width: 100%;
+    }
+.item{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.itemY{
+    width: 270px;
+    height: 158px;
+    background-color: #ffc124;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center;
+    margin-left: 10px;
+    border: transparent;
+    border-inline-color: white;
+    outline: 1px solid white;
+    outline-offset: -15px
+}
+.itemB{
+    width: 270px;
+    height: 158px;
+    background-color: #b66612;
+    font-size: 40px;
+    color: #ffffff;
+   font-family: "Oswald";
+   text-align: center;
+   margin-left: 10px;
+   border: transparent;
+   border-inline-color: white;
+   outline: 1px solid white;
+  outline-offset: -15px
+}
+.itemR{
+    width: 270px;
+    height: 158px;
+    background-color:#b32317;
+    font-size: 40px;
+    color: #ffffff;
+   font-family: "Oswald";
+   text-align: center;
+   margin-left: 10px;
+   border: transparent;
+   border-inline-color: white;
+   outline: 1px solid white;
+  outline-offset: -15px
+}
+.itemG{
+    width: 270px;
+    height: 158px;
+    background-color: #008000;
+    font-size: 40px;
+   font-family: "Oswald";
+   text-align: center;
+   margin-left: 10px;
+   border: transparent;
+   border-inline-color: white;
+   outline: 1px solid white;
+  outline-offset: -15px
+}
+.i1{
+    font-size: 18px;
+   line-height: 28px;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: "Roboto Slab";
+   text-align: center;
+}
+.about{
+    margin-left: -100px;
+}
+
+.Main-Title{
+    margin-left: 600px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #b32317;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin-top: 10px;
+
+}
+.Sub-Title{
+    margin-left: 570px;
+    margin-top: 15px;
+    font-size: 40px;
+    line-height: 20px;
+    color: black;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+
+}
+.Ret{
+    color: #b32317;
+   
+    
+}
+.Work{
+    color: #b32317;
+    text-align: end;
+}
+.Text1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.Text2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.retail{
+    margin-top: 40px;
+    margin-left: -100px;
+}
+.img1{
+    max-height: 80px;
+    margin-left: 20px;
+}
+.workplace{
+    margin-top: 40px;
+    margin-left: -180px;
+}
+.img2{
+    max-height: 80px;
+    margin-left: 20px;
+}
+.cup{
+    
+    display: flex;
+    margin-top: -400px;
+    margin-left: 550px;
+}
+.Text3{
+    display: flex;
+    margin-top: -420px;
+    margin-left: 1050px;
+}
+.Text4{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 1050px;
+}
+.Hos{
+    color: #b32317;
+}
+.Fund{
+    color: #b32317;
+}
+.Hospitality{
+    margin-top:40px ;
+    margin-left:-200px ;
+}
+.Fundraising{
+    margin-top: 40px;
+    margin-left: -200px;
+}
+.Fifth-Page{
+    height: 301px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-image: url(../image/Layer\ 35.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+     align-items: center;
+     font-family: "Oswald-Bold";
+}
+.Txt-Image{
+    font-size: 36px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+text-align: center;
+}
+.Blend{
+    margin-left: 400px;
+    font-size: 22px;
+    line-height: 20px;
+    color: #b32317;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+.Our-coffee{
+    color: black;
+    margin-left:400px;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+}
+.split{
+    margin-left:400px;
+}
+.Light{
+    color: #b32317;
+    margin-left: 400px;
+}
+.Light-text{
+margin-left: 400px;
+}
+.Medium-text{
+margin-left: 400px;
+}
+.Dark-text{
+margin-left: 400px;
+}
+.btn-DB{
+width: 150px;
+height: 40px;
+background-color: rgb(241, 42, 42);
+outline: 2px solid rgb(17, 15, 15);
+outline-offset: 10px;
+border: transparent;
+margin-left: 415px;
+}
+.Seventh-Page{
+   
+    height: 301px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-image: url(../image/Layer\ 36.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+     align-items: center;
+     font-family: Oswald-Bold;
+}
+.Coffee-Image{
+    font-size: 36px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+text-align: center;
+}
+.logo{
+    margin-left: 100px;
+   
+}
+
+
+.Info{
+    margin-left: 400px;
+    margin-top: -200px;
+  
+}
+.E{
+    font-size: 15px;
+    line-height: 20px;
+    color: #b32317;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin: right;
+    margin-left: 238px;
+    margin-top: -20px;
+}
+.mail{
+    margin-left:300px ;
+    margin-top: -19px;
+}
+.AP{
+    color: #b32317;
+    font-family: "Roboto Slab";
+    font-weight: 800;
+}
+.address{
+    margin-left:100px ;
+    margin-top: -19px;
+}
+.phone{
+    margin-left:75px ;
+    margin-top: -18px;
+}
+.icon{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.HE{
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+.Privacy{
+    margin-left: 850px;
+    margin-top: -20px;
+    font-family: "RobotoSlab-Bold";
+}
+.footer{
+    background-color: #b32317;
+   
+    height: 90px;
+}
+.Perfection{
+    margin-left: -70px;
+}
